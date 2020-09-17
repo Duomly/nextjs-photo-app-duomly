@@ -1,16 +1,10 @@
-$theme-colors: (
-  "dark": black,
-);
-
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: black;
 }
 
 a {
@@ -28,21 +22,4 @@ a {
 
 .menu-padding {
   padding-top: 70px !important;
-  padding-bottom: 70px !important;
-}
-
-.btn:hover, .btn.clicked{
-  color: $primary;
-}
-
-.tags {
-  color: #89cbe8 !important;
-}
-
-.white-space-break {
-  white-space: break-spaces;
-}
-
-.container-md {
-  max-width: 550px !important;
 }
